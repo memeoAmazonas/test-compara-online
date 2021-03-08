@@ -1,29 +1,23 @@
 {
-  "name": "test-software-engineer",
+  "name": "test-jose-ortiz",
   "version": "1.0.0",
-  "description": "ComparaOnline Software Engineer Test",
-  "main": "index.js",
+  "description": "test node",
+  "main": "app.js",
   "scripts": {
-    "test": "mocha spec/*.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/comparaonline/test-software-engineer.git"
+    "url": "git+https://github.com/memeoAmazonas/test-compara-online.git"
   },
   "keywords": [
-    "comparaonline",
-    "test",
-    "software",
-    "engineer"
+    "compara-online",
+    "node"
   ],
-  "author": "ComparaOnline",
-  "license": "MIT",
+  "author": "Jose Ortiz",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/comparaonline/test-software-engineer/issues"
+    "url": "https://github.com/memeoAmazonas/test-compara-online/issues"
   },
-  "homepage": "https://github.com/comparaonline/test-software-engineer#readme",
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^4.0.1"
-  }
+  "homepage": "https://github.com/memeoAmazonas/test-compara-online#readme"
 }
