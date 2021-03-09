@@ -63,3 +63,4 @@ Thumbs.db
 /testData/
 /.nyc_output/
 /coverage/
+/src/data/after-30-days.json

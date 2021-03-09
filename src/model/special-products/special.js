@@ -9,12 +9,7 @@ class Special extends Product {
     actualPrice() {
 
         if (this.diff > 0) {
-            if (this.price >= 0) {
-                const price = this.isValidatePrice + this.diff;
-                this.price = price > Product.MAX_PRICE
-                    ? Product.MAX_PRICE
-                    : price;
-            }
+            super.bodyConditionSpeciall(this.diff);
 
             super.setSellIn();
         } else {

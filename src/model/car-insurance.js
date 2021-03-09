@@ -4,7 +4,9 @@ class CarInsurance {
     }
 
     updatePrice() {
-        this.products.forEach((item) => item.actualPrice());
+        this.products.forEach((item) => {
+            if (item.name !=='Mega Coverage') item.actualPrice()
+        });
         return this.products;
     }
 }

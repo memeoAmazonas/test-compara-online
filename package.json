@@ -5,7 +5,10 @@
   "main": "app.js",
   "scripts": {
     "test": "nyc --reporter=text --reporter=html mocha  --recursive spec",
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+    "after-30-days": "node src/app.js"
+
+
   },
   "repository": {
     "type": "git",
