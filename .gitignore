@@ -60,3 +60,6 @@ Thumbs.db
 # Visual Code Studio
 /.vscode
 /.idea/
+/testData/
+/.nyc_output/
+/coverage/
