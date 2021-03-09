@@ -57,7 +57,7 @@ In the [Folder](https://github.com/memeoAmazonas/test-compara-online/tree/main/s
 ## Contact
 
 José Ortíz - [@ajjicero](https://twitter.com/ajjicero) 
-<a href="mailto:jose.g.ortiz.t@gmail.com">José Ortíz</a>
+<a href="mailto:jose.g.ortiz.t@gmail.com" target="_blank">José Ortíz</a>
 <br>
 <b>
 enjoy :)
