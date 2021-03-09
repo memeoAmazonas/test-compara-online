@@ -4,7 +4,7 @@
   "description": "test node",
   "main": "app.js",
   "scripts": {
-    "test": "nyc mocha --recursive spec",
+    "test": "nyc --reporter=text --reporter=html mocha  --recursive spec",
     "dev": "nodemon src/app.js"
   },
   "repository": {

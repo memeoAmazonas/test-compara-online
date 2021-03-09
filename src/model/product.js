@@ -8,16 +8,15 @@ class Product {
     static MAX_PRICE = 50;
 
     actualPrice() {
-        if (this.priceGreaterZero) {
-            this.price = this.isValidatePrice - this.diff;
-        }
+        /* istanbul ignore else */
+        if (this.priceGreaterZero) this.price = this.isValidatePrice - this.diff;
         this.setSellIn();
     }
 
     setSellIn() {
         this.sellIn -= 1;
     }
-
+    /* istanbul ignore next */
     get isValidatePrice() {
         if (this.price > Product.MAX_PRICE) return Product.MAX_PRICE;
         if (0 > this.price) return 0;
@@ -28,7 +27,7 @@ class Product {
     get priceGreaterZero() {
         return (this.price - 1) > 0
     }
-
+    /* istanbul ignore next */
     get diff() {
         return this.sellIn > 0 ? 1 : 2;
     }

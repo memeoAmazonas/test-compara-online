@@ -6,6 +6,7 @@ class SuperI extends Product {
 
     }
     get diff() {
+        /* istanbul ignore next */
         return this.sellIn > 0 ? 2 : 4;
     }
 }

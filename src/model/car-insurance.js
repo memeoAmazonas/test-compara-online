@@ -1,5 +1,5 @@
 class CarInsurance {
-    constructor(products = []) {
+    constructor(products) {
         this.products = products;
     }
 
